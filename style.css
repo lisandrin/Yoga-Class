@@ -118,18 +118,13 @@ body{
 	background-color: #bdd1cd;
 	background-size: cover;
 }
-.intro_right{
-	margin-top: 200px;
-	padding-right: 15em;
-    text-align: center;
-    float: right;
-}
 .intro_right_text{
-	width: 560px;
+	display: inline-block;
+	width: 470px;
 	height: 241px;
 	background-color: #f4f9f4;
-	padding-top: 10px;
 	text-align: center;
+	margin-left: 20px;
 }
 .intro_right_text h1{
 	font-size: 100px;
@@ -168,8 +163,202 @@ body{
 
 .choose_class{
 	width: 100%;
-	height: 972px;
+	height: 974px;
 	display: flex;
 	background-color: #6c9894;
 	/*overflow: hidden;*/
+}
+.choose_class_text{
+	width: 783px;
+	height: 200px;
+	/*display: inline-block;*/
+	justify-content: center;
+	text-align: center;
+	background-color: none;
+	margin-top: 106px;
+}
+.choose_class_text h1{
+	font-size: 75px;
+	color:#f4f0f4;
+	font-weight: bold;
+	font-family: "Baloo";
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.choose_class_text p{
+	width: 766px;
+	height: 210px;
+	font-size: 30px;
+	color: #f4f9f4;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+/*////NEW PIC PATTERN/////*/
+.choose_class_contant{
+	width: 1480px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: none;
+    display: flex;
+    padding-top: 20px;
+}
+.new{
+	width: 408px;
+	height: 510px;
+	background-color: none;
+	display: block;
+	float: left;
+	/*margin-top: 50px;*/
+}
+.new .yoga_pattern{
+	background-color: #6c9894;
+	background-image: url(./imgs/choose_shape.png);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	display: flex;
+}
+.new_square{
+	display: inline-block;
+	width: 312px;
+	height: 308px;
+	border: 1px solid #FFF;
+	border-radius: 100%;
+	background-color: #bdd1cd;
+	background-size: cover;
+	margin-top: 41px;
+}
+.adv{
+	width: 408px;
+	height: 510px;
+	background-color: none;
+	display: block;
+}
+.adv .yoga_pattern{
+	background-color: #6c9894;
+	background-image: url(./imgs/choose_shape.png);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	display: flex;
+}
+.ex{
+	width: 408px;
+	height: 510px;
+	background-color: none;
+	display: block;
+}
+.ex .yoga_pattern{
+	background-color: #6c9894;
+	background-image: url(./imgs/choose_shape.png);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	display: flex;
+}
+.choose_class_contant h3{
+	font-size: 37px;
+	color: #f4f9f4;
+	font-weight: bold;
+	font-family: Baloo;
+	text-align: center;
+	text-transform: uppercase;
+}
+.choose_class_contant p{
+	padding-top: 10px;
+	width: 314px;
+	height: 64px;
+	font-size: 22px;
+	color: #f4f9f4;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+/*/////////////////////OUR STATS//////////////////*/
+
+.our_stats{
+	width: 100%;
+	height: 974px; 
+	display: flex;	
+	background-image: url(./imgs/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.our_stats_text{
+	width: 754px;
+	height: 230px;
+	/*display: inline-block;*/
+	justify-content: center;
+	text-align: center;
+	background-color: none; 
+	margin-top: 91px;
+}
+.our_stats_text h1{
+	font-size: 75px;
+	color:#6c9894;
+	font-weight: bold;
+	font-family: "Baloo";
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.our_stats_text p{
+	width: 766px;
+	height: 210px;
+	font-size: 30px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+/*////////////////OUR STATS CONTANT//////////////*/
+
+.our_stats_contant{
+	width: 1480px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: none;
+    display: flex;
+    padding-top: 121px;
+}
+.square{
+	width: 338px;
+	height: 326px;
+	background-color: none;
+	display: block;
+	/*justify-content: space-between;*/
+}
+.stats_square{
+	display: inline-block;
+	width: 338px;
+	height: 326px;
+	border: 5px solid #6c9894;
+	border-radius: 100%;
+	background-color: none;
+	background-size: cover;
+}
+.stats_square h3{
+	font-size: 75px;
+	color:#6c9894;
+	font-weight: bold;
+	font-family: "Baloo";
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-top: 20%;
+	padding-left: 30%;
+}
+.stats_square p{
+	width: 196px;
+	height: 60px;
+	font-size: 30px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
 }
