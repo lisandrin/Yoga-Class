@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+    .choose_class_items{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 2em;
+    }
+    .intro__wrapper{
+        grid-template-columns: 1fr;
+        padding-bottom: 2em;
+    }
+    .intro__wrapper .half_shape{
+        display: none;
+    }
+    .our__stats__items{
+        grid-template-columns: 1fr 1fr;
+    }
+    .instruct__wrapper{
+        grid-template-columns: 1fr;
+        padding: 2em;
+    }
+    .instruct__wrapper .instructor_pic{
+        display: none;
+    }
+    .exp__wrapper{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .pricing__items{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .footer_content{
+        display: inline-block;
+    }
+    .footer__items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/** --------------- Brake Point 851 ----------- */
+@media (max-width: 851px) {
+    .choose_class_items{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-bottom: 2em;
+    }
+    .choose_class_text p{
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .our__stats__items{
+        grid-template-columns: 1fr;
+    }
+    .pricing__items{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer__items{
+        grid-template-columns: 1fr;
+    }
+}
